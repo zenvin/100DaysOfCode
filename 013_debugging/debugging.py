@@ -10,22 +10,22 @@
 
 # Reproduce the Bug
 # randint(1,6) gives an error when 6 is used.
-from random import randint
-dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
-dice_num = randint(1, 5)
-print(dice_imgs[dice_num])
+# from random import randint
+# dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
+# dice_num = randint(1, 5)
+# print(dice_imgs[dice_num])
 
 # # Play Computer
 # year = int(input("What's your year of birth?"))
-# if year > 1980 and year < 1994:
+# if year >= 1980 and year <= 1994:
 #   print("You are a millenial.")
 # elif year > 1994:
 #   print("You are a Gen Z.")
 
 # # Fix the Errors
-# age = input("How old are you?")
+# age = int(input("How old are you?"))
 # if age > 18:
-# print("You can drive at age {age}.")
+#     print(f"You can drive at age {age}.")
 
 # #Print is Your Friend
 # pages = 0
